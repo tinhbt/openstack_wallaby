@@ -214,9 +214,9 @@ vi multinode
 ansible_connection=ssh
 ansible_become=true
 ansible_ssh_port=22
-ansible_ssh_user=sysadmin
-ansible_ssh_pass=o%^P88en
-ansible_sudo_pass=o%^P88en
+#ansible_ssh_user=sysadmin
+ansible_ssh_pass=1
+ansible_sudo_pass=1
 
 [control]
 control01
@@ -235,7 +235,7 @@ storage01
 compute01
 
 [deployment]
-localhost  ansible_connection=local
+controller
 
 ```
 
