@@ -280,6 +280,12 @@ enable_senlin: "yes"
 ```
 
 ### Deployment
+Install kolla-ansible Galaxy deps
+```
+kolla-ansible install-deps
+```
+
+
 Bootstrap servers with kolla deploy dependencies
 ```
 kolla-ansible -i multinode bootstrap-servers
