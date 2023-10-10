@@ -99,7 +99,7 @@ copy keygen
 ssh-copy-id compute1@192.168.99.20
 ssh-copy-id .....
 ```
-
+note: copy public key to .ssh/authorized_keys 
 edit /etc/hosts
 
 ```
