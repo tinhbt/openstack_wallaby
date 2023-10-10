@@ -163,12 +163,15 @@ sudo pip3 install -U pip
 ```
 
 
-### Install Ansible
-
+### Install Ansible 
+2023.1: ansible==6.7.0
 ```
-sudo apt-get install ansible
+pip3 install ansible==6.7.0
 ```
-
+### add to path Ansible
+```
+export PATH=$PATH:~/.local/bin
+```
 ### Install Kolla-ansible
 
 Install kolla-ansible and its dependencies using pip
